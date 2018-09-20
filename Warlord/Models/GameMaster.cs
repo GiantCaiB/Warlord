@@ -21,7 +21,7 @@ namespace Warlord.Models
             }
         }
 
-        static decimal MaxExp(decimal level)
+        public static decimal MaxExp(decimal level)
         {
             return level * 250;
         }
