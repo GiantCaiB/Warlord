@@ -1,0 +1,11 @@
+/Users/dannyyu/C#Projects/Warlord/Warlord/obj/Debug/netcoreapp2.1/Warlord.csprojResolveAssemblyReference.cache
+/Users/dannyyu/C#Projects/Warlord/Warlord/obj/Debug/netcoreapp2.1/Warlord.csproj.CoreCompileInputs.cache
+/Users/dannyyu/C#Projects/Warlord/Warlord/obj/Debug/netcoreapp2.1/Warlord.AssemblyInfoInputs.cache
+/Users/dannyyu/C#Projects/Warlord/Warlord/obj/Debug/netcoreapp2.1/Warlord.AssemblyInfo.cs
+/Users/dannyyu/C#Projects/Warlord/Warlord/bin/Debug/netcoreapp2.1/Warlord.deps.json
+/Users/dannyyu/C#Projects/Warlord/Warlord/bin/Debug/netcoreapp2.1/Warlord.runtimeconfig.json
+/Users/dannyyu/C#Projects/Warlord/Warlord/bin/Debug/netcoreapp2.1/Warlord.runtimeconfig.dev.json
+/Users/dannyyu/C#Projects/Warlord/Warlord/bin/Debug/netcoreapp2.1/Warlord.dll
+/Users/dannyyu/C#Projects/Warlord/Warlord/bin/Debug/netcoreapp2.1/Warlord.pdb
+/Users/dannyyu/C#Projects/Warlord/Warlord/obj/Debug/netcoreapp2.1/Warlord.dll
+/Users/dannyyu/C#Projects/Warlord/Warlord/obj/Debug/netcoreapp2.1/Warlord.pdb

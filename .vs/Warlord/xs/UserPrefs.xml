@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{B325BC1B-3C7A-4428-8652-234A9C1AF8BB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Warlord/Models/Character.cs">
+    <Files>
+      <File FileName="Warlord/Program.cs" Line="7" Column="6" />
+      <File FileName="Warlord/UI/IMenu.cs" Line="8" Column="1" />
+      <File FileName="Warlord/UI/Menu.cs" Line="9" Column="30" />
+      <File FileName="Warlord/UI/MainMenu.cs" Line="33" Column="27" />
+      <File FileName="Warlord/Config/Config.cs" Line="6" Column="38" />
+      <File FileName="Warlord/Models/Character.cs" Line="6" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Warlord PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
