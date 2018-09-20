@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Warlord.Models;
 
 namespace Warlord.UI
 {
@@ -20,7 +21,13 @@ namespace Warlord.UI
         {
             switch(input){
                 case 1:
-                    Console.WriteLine("New Game Start!");
+                    Console.Clear();
+                    Champion champion = new Champion(1);
+                    champion.Name = "Danny";
+                    Console.WriteLine(champion.CharacterInfo());
+                    champion.GainExp(260);
+                    Console.WriteLine(champion.CharacterInfo());
+                    Console.ReadKey();
                     break;
                 case 2:
                     Console.Clear();

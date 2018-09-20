@@ -10,4 +10,7 @@
     <Folder Include="Config\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\Character.cs" />
+  </ItemGroup>
 </Project>
