@@ -17,33 +17,27 @@ namespace Warlord.UI
             DisplayMenu();
         }
 
-        protected override void HandleChoice(int input)
+        protected override int HandleChoice(int input)
         {
             switch(input){
                 case 1:
-                    Console.Clear();
-                    Champion champion = new Champion(1);
-                    champion.Name = "Danny";
-                    Console.WriteLine(champion.CharacterInfo());
-                    champion.GainExp(260);
-                    Console.WriteLine(champion.CharacterInfo());
-                    Console.ReadKey();
+                    ICharacter character = GameMaster.CreateNewRole();
                     break;
                 case 2:
                     Console.Clear();
                     Console.Write("".PadRight(Config.Config.padRight));
-                    Console.WriteLine("Author: Wenfei(Danny) YU");
+                    Console.WriteLine("@ Author: Wenfei(Danny) YU");
                     Console.Write("".PadRight(Config.Config.padRight));
                     Console.WriteLine("@ Sep 2018");
                     Console.ReadKey();
+                    Console.Clear();
                     DisplayMenu();
                     break;
                 case 3:
                     Environment.Exit(0);
                     break;
-                default:
-                    break;
             }
+            return input;
         }
 
         protected override void PrintTitle()
@@ -60,7 +54,7 @@ namespace Warlord.UI
                 @"",
                 @"",
             };
-            Console.WriteLine("\n\n");
+            Console.WriteLine("\n");
             foreach (string line in arr)
                 Console.WriteLine(line);
         }

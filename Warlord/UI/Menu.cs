@@ -10,10 +10,9 @@ namespace Warlord.UI
         protected HashSet<string> menuOptions = new HashSet<string>();
 
         // draw the menu based on the option params
-        public void DisplayMenu()
+        public int DisplayMenu()
         {
             index = 1;
-            Console.Clear();
             PrintTitle();
             foreach(string menuOption in menuOptions)
             {
@@ -25,8 +24,9 @@ namespace Warlord.UI
             string input = Console.ReadLine();
             if(ValidateNumberic(input)&&ValidateRange(choice))
             {
-                HandleChoice(choice);
+                return HandleChoice(choice);
             }
+            return 0;
         }
 
         // user's input must be a number
@@ -56,11 +56,14 @@ namespace Warlord.UI
         {
             Console.WriteLine("{0}, press any key to continue...", errorMsg);
             Console.ReadKey();
+            Console.Clear();
             DisplayMenu();
         }
 
         // handle the user's input
-        protected virtual void HandleChoice(int input){}
+        protected virtual int HandleChoice(int input){
+            return input;
+        }
 
         protected virtual void PrintTitle(){}
     }

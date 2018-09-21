@@ -5,22 +5,14 @@ namespace Warlord.Models
 {
     public class Champion:ICharacter
     {
-        string name;
-        public string Name { get => name; set => name = value; }
-        decimal intelligence;
-        public decimal Intelligence { get => intelligence; set => intelligence = value; }
-        decimal vitality;
-        public decimal Vitality { get => vitality; set => vitality = value; }
-        decimal strength;
-        public decimal Strength { get => strength; set => strength = value; }
-        decimal agility;
-        public decimal Agility { get => agility; set => agility = value; }
-        decimal dominance;
-        public decimal Dominance { get => dominance; set => dominance = value; }
-        decimal experience;
-        public decimal Experience { get => experience; set => experience = value; }
-        decimal level;
-        public decimal Level { get => level; set => level = value; }
+        public string Name { get; set; }
+        public decimal Intelligence { get; set; }
+        public decimal Vitality { get; set; }
+        public decimal Strength { get; set; }
+        public decimal Agility { get; set; }
+        public decimal Dominance { get; set; }
+        public decimal Experience { get; set; }
+        public decimal Level { get; set; }
 
         // default values
         public Champion(decimal level)
@@ -44,14 +36,14 @@ namespace Warlord.Models
 
         public void GainExp(decimal exp)
         {
-            exp = exp * (1 + Intelligence / 150);
+            exp = exp * (1 + Intelligence / 200);
             GameMaster.LevelUp(this, exp);
             PowerUp();
         }
 
         public string CharacterInfo()
         {
-            StringBuilder sb = new StringBuilder("Champion", 100);
+            StringBuilder sb = new StringBuilder("Champion:", 100);
             sb.AppendFormat(" {0}\n", Name);
             sb.AppendFormat("LVL: {0}, EXP: {1}/{2}\n", Level, Math.Round(Experience, 2).ToString(), GameMaster.MaxExp(Level));
             sb.AppendFormat("STR: {0}\n", Strength);
@@ -64,11 +56,11 @@ namespace Warlord.Models
 
         void PowerUp()
         {
-            Intelligence = (decimal)(7 + ((double)level) * 0.6);
-            Vitality = (decimal)(10 + ((double)level) * 1.1);
-            Strength = (decimal)(12 + ((double)level) * 1.5);
-            Agility = (decimal)(9 + ((double)level) * 1);
-            Dominance = (decimal)(10 + ((double)level) * 0.9);
+            Intelligence = (decimal)(7 + ((double)Level) * 0.6);
+            Vitality = (decimal)(10 + ((double)Level) * 1.1);
+            Strength = (decimal)(12 + ((double)Level) * 1.5);
+            Agility = (decimal)(9 + ((double)Level) * 1);
+            Dominance = (decimal)(10 + ((double)Level) * 0.9);
         }
     }
 }

@@ -3,7 +3,7 @@ namespace Warlord.UI
 {
     public interface IMenu
     {
-        void DisplayMenu();
+        int DisplayMenu();
         void DisplayErrorMsg(string errorMsg);
     }
 }
