@@ -1,10 +1,17 @@
 ﻿<Properties StartupConfiguration="{B325BC1B-3C7A-4428-8652-234A9C1AF8BB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Warlord/Models/GameMaster.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Warlord/Models/Character.cs">
     <Files>
-      <File FileName="Warlord/UI/MainMenu.cs" Line="24" Column="48" />
+      <File FileName="Warlord/UI/MainMenu.cs" Line="20" Column="55" />
       <File FileName="Warlord/UI/ChooseClassMenu.cs" Line="16" Column="15" />
       <File FileName="Warlord/Models/GameMaster.cs" Line="32" Column="35" />
       <File FileName="README.md" Line="6" Column="67" />
+      <File FileName="Warlord/Models/ICharacter.cs" Line="15" Column="32" />
+      <File FileName="Warlord/Models/Champion.cs" Line="48" Column="82" />
+      <File FileName="Warlord/Models/General.cs" Line="61" Column="60" />
+      <File FileName="Warlord/UI/IScene.cs" Line="10" Column="26" />
+      <File FileName="Warlord/UI/Scene.cs" Line="14" Column="29" />
+      <File FileName="Warlord/UI/IScript.cs" Line="5" Column="6" />
+      <File FileName="Warlord/Models/Character.cs" Line="4" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

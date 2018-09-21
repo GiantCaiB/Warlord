@@ -17,7 +17,7 @@ namespace Warlord.Models
             switch (classMenu.DisplayMenu())
             {
                 case 1:
-                    character = new Champion(1);
+                    character = new General(1);
                     break;
                 case 2:
                     character = new Champion(1);
@@ -26,7 +26,7 @@ namespace Warlord.Models
                     character = new Champion(1);
                     break;
                 default:
-                    character = new Champion(1);
+                    character = new Character(1);
                     break;
             }
             character.Name = name;

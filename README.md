@@ -1,6 +1,10 @@
 # Warlord
 A text-based strategy game in C# console app
 
+----v0.1.1 21/19/2018----
+     A new character: general. A general has better leading ability and average dual skills.
+
+
 ----v0.1 20/19/2018----
 
     A new character: champion. A champion has better dual ability.
