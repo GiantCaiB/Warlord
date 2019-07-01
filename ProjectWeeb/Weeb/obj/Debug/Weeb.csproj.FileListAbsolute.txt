@@ -1,0 +1,6 @@
+C:\Users\yud\Desktop\Development\ProjectWeeb\Weeb\bin\Debug\Weeb.exe.config
+C:\Users\yud\Desktop\Development\ProjectWeeb\Weeb\bin\Debug\Weeb.exe
+C:\Users\yud\Desktop\Development\ProjectWeeb\Weeb\bin\Debug\Weeb.pdb
+C:\Users\yud\Desktop\Development\ProjectWeeb\Weeb\obj\Debug\Weeb.csprojResolveAssemblyReference.cache
+C:\Users\yud\Desktop\Development\ProjectWeeb\Weeb\obj\Debug\Weeb.exe
+C:\Users\yud\Desktop\Development\ProjectWeeb\Weeb\obj\Debug\Weeb.pdb
